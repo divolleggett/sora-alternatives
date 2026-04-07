@@ -1,7 +1,7 @@
 # Soraは終了 — 2026年最高のAI動画生成代替サービス
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ristponex/sora-alternatives/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/divolleggett/sora-alternatives/pulls)
 
 2026年3月24日、[OpenAIが発表](https://www.cnn.com/2026/03/24/tech/openai-sora-video-app-shutting-down)しました。SoraのアプリとAPIの両方がサービス終了となります。同時にディズニーも計画していた10億ドルの投資を[撤回](https://variety.com/2026/digital/news/openai-shutting-down-sora-video-disney-1236698277/)しました。このガイドでは、動画生成ワークフローに最適な代替サービスを見つけるお手伝いをします。
 
@@ -361,7 +361,7 @@ Soraには常に厳格なコンテンツモデレーションがありました�
 | **Wan 2.6 T2V/I2V** | $0.04–0.15/秒 | T2V/I2V | 汎用モデル、緩和されたポリシー |
 | **Vidu Q3-Pro** | $0.06–0.16/秒 | T2V/I2V | BGM付きアニメNSFW |
 
-> 専用ガイドもご覧ください: [Awesome NSFW AI Video](https://github.com/ristponex/awesome-nsfw-ai-video) | [Wan 2.2 Spicy LoRA Guide](https://github.com/ristponex/wan-2.2-spicy-lora-nsfw)
+> 専用ガイドもご覧ください: [Awesome NSFW AI Video](https://github.com/54043RaymondPhilip/awesome-nsfw-ai-video) | [Wan 2.2 Spicy LoRA Guide](https://github.com/CornellJos963802hua/wan-2.2-spicy-lora-nsfw)
 
 ---
 
@@ -435,17 +435,17 @@ Wan 2.6とKling O3 Proはどちらも最大15秒に対応しています。よ�
 <details>
 <summary><b>無検閲の動画生成が必要です。Soraではコンテンツがブロックされていました。</b></summary>
 
-Wan 2.2 Spicy（$0.03/秒）はLoRAファインチューニングによるNSFWコンテンツ専用モデルです。Seedance、Wan 2.6、ViduもAtlas Cloudでコンテンツフィルターなしで利用可能です。[NSFW AI動画ガイド](https://github.com/ristponex/awesome-nsfw-ai-video)をご覧ください。
+Wan 2.2 Spicy（$0.03/秒）はLoRAファインチューニングによるNSFWコンテンツ専用モデルです。Seedance、Wan 2.6、ViduもAtlas Cloudでコンテンツフィルターなしで利用可能です。[NSFW AI動画ガイド](https://github.com/54043RaymondPhilip/awesome-nsfw-ai-video)をご覧ください。
 </details>
 
 ---
 
 ## 関連リソース
 
-- [NSFW AI API Comparison](https://github.com/ristponex/nsfw-ai-api-comparison) — 無検閲生成が必要な場合
-- [Awesome NSFW AI Video](https://github.com/ristponex/awesome-nsfw-ai-video) — 厳選されたNSFW動画モデルリスト
-- [Wan 2.2 Spicy LoRA Guide](https://github.com/ristponex/wan-2.2-spicy-lora-nsfw) — カスタムLoRAスタイル
-- [AI Video LoRA Guide](https://github.com/ristponex/ai-video-lora-guide) — 一般的なLoRAチュートリアル
+- [NSFW AI API Comparison](https://github.com/MartinCha73421mberlain/nsfw-ai-api-comparison) — 無検閲生成が必要な場合
+- [Awesome NSFW AI Video](https://github.com/54043RaymondPhilip/awesome-nsfw-ai-video) — 厳選されたNSFW動画モデルリスト
+- [Wan 2.2 Spicy LoRA Guide](https://github.com/CornellJos963802hua/wan-2.2-spicy-lora-nsfw) — カスタムLoRAスタイル
+- [AI Video LoRA Guide](https://github.com/pangzipo981184/ai-video-lora-guide) — 一般的なLoRAチュートリアル
 
 ---
 

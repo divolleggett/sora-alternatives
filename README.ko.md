@@ -1,7 +1,7 @@
 # Sora는 죽었다 — 2026년 최고의 AI 동영상 대안
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ristponex/sora-alternatives/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/divolleggett/sora-alternatives/pulls)
 
 2026년 3월 24일, [OpenAI가 발표했습니다](https://www.cnn.com/2026/03/24/tech/openai-sora-video-app-shutting-down) — Sora 앱과 API 모두 서비스를 종료한다고. 동시에 디즈니도 계획되어 있던 10억 달러 투자를 [철회했습니다](https://variety.com/2026/digital/news/openai-shutting-down-sora-video-disney-1236698277/). 이 가이드는 여러분의 동영상 생성 워크플로에 가장 적합한 대안을 찾는 데 도움을 드립니다.
 
@@ -361,7 +361,7 @@ Sora는 항상 엄격한 콘텐츠 검열을 적용했습니다. 무검열 동�
 | **Wan 2.6 T2V/I2V** | $0.04–0.15/초 | T2V/I2V | 범용 모델, 완화된 정책 |
 | **Vidu Q3-Pro** | $0.06–0.16/초 | T2V/I2V | BGM 포함 애니메이션 NSFW |
 
-> 전용 가이드 참조: [Awesome NSFW AI Video](https://github.com/ristponex/awesome-nsfw-ai-video) | [Wan 2.2 Spicy LoRA 가이드](https://github.com/ristponex/wan-2.2-spicy-lora-nsfw)
+> 전용 가이드 참조: [Awesome NSFW AI Video](https://github.com/54043RaymondPhilip/awesome-nsfw-ai-video) | [Wan 2.2 Spicy LoRA 가이드](https://github.com/CornellJos963802hua/wan-2.2-spicy-lora-nsfw)
 
 ---
 
@@ -435,17 +435,17 @@ Wan 2.6과 Kling O3 Pro 모두 최대 15초를 지원합니다. 더 긴 콘텐�
 <details>
 <summary><b>무검열 동영상 생성이 필요합니다. Sora가 콘텐츠를 차단했어요.</b></summary>
 
-Wan 2.2 Spicy ($0.03/초)는 LoRA 파인튜닝을 통해 NSFW 콘텐츠에 특화된 모델입니다. Seedance, Wan 2.6, Vidu도 Atlas Cloud에서 콘텐츠 필터 없이 이용 가능합니다. [NSFW AI 동영상 가이드](https://github.com/ristponex/awesome-nsfw-ai-video)를 참조하세요.
+Wan 2.2 Spicy ($0.03/초)는 LoRA 파인튜닝을 통해 NSFW 콘텐츠에 특화된 모델입니다. Seedance, Wan 2.6, Vidu도 Atlas Cloud에서 콘텐츠 필터 없이 이용 가능합니다. [NSFW AI 동영상 가이드](https://github.com/54043RaymondPhilip/awesome-nsfw-ai-video)를 참조하세요.
 </details>
 
 ---
 
 ## 관련 리소스
 
-- [NSFW AI API 비교](https://github.com/ristponex/nsfw-ai-api-comparison) — 무검열 생성이 필요한 경우
-- [Awesome NSFW AI Video](https://github.com/ristponex/awesome-nsfw-ai-video) — 선별된 NSFW 동영상 모델 목록
-- [Wan 2.2 Spicy LoRA 가이드](https://github.com/ristponex/wan-2.2-spicy-lora-nsfw) — 커스텀 LoRA 스타일
-- [AI Video LoRA 가이드](https://github.com/ristponex/ai-video-lora-guide) — 일반 LoRA 튜토리얼
+- [NSFW AI API 비교](https://github.com/MartinCha73421mberlain/nsfw-ai-api-comparison) — 무검열 생성이 필요한 경우
+- [Awesome NSFW AI Video](https://github.com/54043RaymondPhilip/awesome-nsfw-ai-video) — 선별된 NSFW 동영상 모델 목록
+- [Wan 2.2 Spicy LoRA 가이드](https://github.com/CornellJos963802hua/wan-2.2-spicy-lora-nsfw) — 커스텀 LoRA 스타일
+- [AI Video LoRA 가이드](https://github.com/pangzipo981184/ai-video-lora-guide) — 일반 LoRA 튜토리얼
 
 ---
 

@@ -1,7 +1,7 @@
 # Sora Is Dead — The Best AI Video Alternatives in 2026
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ristponex/sora-alternatives/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/divolleggett/sora-alternatives/pulls)
 
 On March 24, 2026, [OpenAI announced](https://www.cnn.com/2026/03/24/tech/openai-sora-video-app-shutting-down) that Sora is shutting down — both the app and the API. Disney simultaneously [pulled out](https://variety.com/2026/digital/news/openai-shutting-down-sora-video-disney-1236698277/) of its planned $1 billion investment. This guide helps you find the best replacement for your video generation workflow.
 
@@ -360,7 +360,7 @@ Sora always had strict content moderation. If you need uncensored video generati
 | **Wan 2.6 T2V/I2V** | $0.04–0.15/s | T2V/I2V | General model, relaxed policy |
 | **Vidu Q3-Pro** | $0.06–0.16/s | T2V/I2V | Anime NSFW with BGM |
 
-> See our dedicated guides: [Awesome NSFW AI Video](https://github.com/ristponex/awesome-nsfw-ai-video) | [Wan 2.2 Spicy LoRA Guide](https://github.com/ristponex/wan-2.2-spicy-lora-nsfw)
+> See our dedicated guides: [Awesome NSFW AI Video](https://github.com/54043RaymondPhilip/awesome-nsfw-ai-video) | [Wan 2.2 Spicy LoRA Guide](https://github.com/CornellJos963802hua/wan-2.2-spicy-lora-nsfw)
 
 ---
 
@@ -434,17 +434,17 @@ Wan 2.6 and Kling O3 Pro both support up to 15 seconds. For longer content, chai
 <details>
 <summary><b>I need uncensored video generation. Sora blocked my content.</b></summary>
 
-Wan 2.2 Spicy ($0.03/s) is purpose-built for NSFW content with LoRA fine-tuning. Seedance, Wan 2.6, and Vidu are also available without content filters on Atlas Cloud. See our [NSFW AI Video Guide](https://github.com/ristponex/awesome-nsfw-ai-video).
+Wan 2.2 Spicy ($0.03/s) is purpose-built for NSFW content with LoRA fine-tuning. Seedance, Wan 2.6, and Vidu are also available without content filters on Atlas Cloud. See our [NSFW AI Video Guide](https://github.com/54043RaymondPhilip/awesome-nsfw-ai-video).
 </details>
 
 ---
 
 ## Related Resources
 
-- [NSFW AI API Comparison](https://github.com/ristponex/nsfw-ai-api-comparison) — If you need uncensored generation
-- [Awesome NSFW AI Video](https://github.com/ristponex/awesome-nsfw-ai-video) — Curated NSFW video model list
-- [Wan 2.2 Spicy LoRA Guide](https://github.com/ristponex/wan-2.2-spicy-lora-nsfw) — Custom LoRA styles
-- [AI Video LoRA Guide](https://github.com/ristponex/ai-video-lora-guide) — General LoRA tutorial
+- [NSFW AI API Comparison](https://github.com/MartinCha73421mberlain/nsfw-ai-api-comparison) — If you need uncensored generation
+- [Awesome NSFW AI Video](https://github.com/54043RaymondPhilip/awesome-nsfw-ai-video) — Curated NSFW video model list
+- [Wan 2.2 Spicy LoRA Guide](https://github.com/CornellJos963802hua/wan-2.2-spicy-lora-nsfw) — Custom LoRA styles
+- [AI Video LoRA Guide](https://github.com/pangzipo981184/ai-video-lora-guide) — General LoRA tutorial
 
 ---
 
