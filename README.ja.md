@@ -55,7 +55,6 @@ OpenAIは[2026年3月24日に発表](https://www.cnbc.com/2026/03/24/openai-shut
 | **アニメ / スタイライズド** | [Vidu Q3-Pro](https://www.atlascloud.ai/models/vidu/q3-pro/text-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) | ネイティブアニメモード、BGM生成機能 |
 | **動画編集** | [Kling O3 Pro Video-Edit](https://www.atlascloud.ai/models/kwaivgi/kling-video-o3-pro/video-edit?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) | 自然言語による動画編集 |
 | **キャラクターの一貫性** | [Vidu Q3-Pro](https://www.atlascloud.ai/models/vidu/q3-pro/text-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) / [Kling O3 Ref2V](https://www.atlascloud.ai/models/kwaivgi/kling-video-o3-pro/reference-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) | キャラクター固定のリファレンス動画生成 |
-| **NSFW / 無検閲** | [Wan 2.2 Spicy](https://www.atlascloud.ai/models/alibaba/wan-2.2-spicy/image-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) | 成人向けコンテンツ用にLoRAチューニング済み、$0.03/秒 |
 | **最安値** | [Seedance v1.5 Fast](https://www.atlascloud.ai/models/bytedance/seedance-v1.5-pro/text-to-video-fast?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) | 音声付きで$0.018/秒 |
 
 ---
@@ -88,7 +87,6 @@ OpenAIは[2026年3月24日に発表](https://www.cnbc.com/2026/03/24/openai-shut
 |-------|----------|------|:--------------:|:-----:|----------|
 | **[Seedance v1.5 Fast](https://www.atlascloud.ai/models/bytedance/seedance-v1.5-pro/text-to-video-fast?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | ByteDance | T2V | 720p | $0.018/秒 | 超低コストのドラフト |
 | **[Wan 2.6 I2V Flash](https://www.atlascloud.ai/models/alibaba/wan-2.6/image-to-video-flash?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | Alibaba | I2V | 1080p | $0.018/秒 | 低予算アニメーション |
-| **[Wan 2.2 Spicy](https://www.atlascloud.ai/models/alibaba/wan-2.2-spicy/image-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | Alibaba | I2V | 720p | $0.03/秒 | NSFW / 無検閲 |
 | **[Vidu Q3-Turbo](https://www.atlascloud.ai/models/vidu/q3-turbo/text-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | Shengshu | T2V/I2V | 1080p | 低価格 | 高速生成 |
 | **[Kling O3 Video-Edit](https://www.atlascloud.ai/models/kwaivgi/kling-video-o3-pro/video-edit?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | Kuaishou | 編集 | 1080p | $0.306/秒 | 自然言語動画編集 |
 
@@ -132,7 +130,6 @@ Wan 2.6 T2Vは$0.04/秒、Seedance Fastは$0.018/秒と、最も安価なAPIで�
 | ~~Sora 2~~（サービス終了） | — | ~$0.50 | ~$1.00 |
 | **Seedance v1.5 Fast** | — | **$0.018** | — |
 | **Wan 2.6 T2V** | $0.20 | $0.40 | $0.60 |
-| **Wan 2.2 Spicy** | $0.15 | $0.15 | — |
 | **Vidu Q3-Pro** | — | $0.75 | $0.80 |
 | **Seedance v1.5 Pro** | — | $0.222 | — |
 | **Kling 3.0 Std** | — | $0.765 | $0.765 |
@@ -143,7 +140,6 @@ Wan 2.6 T2Vは$0.04/秒、Seedance Fastは$0.018/秒と、最も安価なAPIで�
 | モデル | コスト | Soraとの比較 |
 |-------|:----:|:-------:|
 | Seedance v1.5 Fast | **$18** | 96%安い |
-| Wan 2.2 Spicy | **$150** | 70%安い |
 | Seedance v1.5 Pro | **$222** | 56%安い |
 | Wan 2.6 T2V | **$400** | 20%安い |
 | ~~Sora 2~~ | ~$500 | — |
@@ -338,30 +334,10 @@ APIを待つ間、ByteDanceの公式アプリでSeedance 2.0を体験できま�
 | **Veo 3 / 3.1** | ✅ | ❌ | ❌ |
 | **Seedance v1.5** | ✅ | ❌ | ❌ |
 | **Hailuo 2.3** | ✅ | ✅ | ❌ |
-| **NSFWサポート** | ✅ 完全対応（Wan Spicy、Seedance、Vidu） | ⚠️ 制限あり | ❌ ブロック |
-| **カスタムLoRA（動画）** | ✅ Wan 2.2 Spicy LoRA | ❌ | ❌ |
 | **LLMモデル** | ✅ 50以上（DeepSeek、Qwenなど） | ❌ | ❌ |
 | **画像モデル** | ✅ 40以上（Flux、Seedream、Nano Banana） | ✅ 30以上 | ✅ |
 | **1つのAPIキー** | ✅ 動画 + 画像 + LLM | 動画 + 画像のみ | 動画 + 画像のみ |
 | **Wan 2.6 T2V 価格** | $0.08/秒（720p） | $0.10/秒 | N/A |
-
-**主な利点**: Atlas Cloudは、Kling、Veo、Seedance、Wan、Vidu、Hailuo、そしてNSFWモデルのすべてに1つのAPIキーでアクセスできる唯一のプラットフォームです。fal.aiにはVeoとSeedanceがなく、ReplicateはNSFWをブロックし、ほとんどの中国モデルが利用できません。
-
----
-
-## NSFW動画生成 — Soraには決してなかった機能
-
-Soraには常に厳格なコンテンツモデレーションがありました。無検閲の動画生成が必要な場合、以下のモデルがAtlas Cloudでコンテンツフィルターなしで利用可能です：
-
-| モデル | 料金 | タイプ | 備考 |
-|-------|:-----:|------|-------|
-| **[Wan 2.2 Spicy](https://www.atlascloud.ai/models/alibaba/wan-2.2-spicy/image-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | $0.03/秒 | I2V | NSFW向けLoRAチューニング済み、最高の人体表現 |
-| **[Wan 2.2 Spicy LoRA](https://www.atlascloud.ai/models/alibaba/wan-2.2-spicy/image-to-video-lora?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | $0.04/秒 | I2V | NSFW向けカスタムLoRAスタイル |
-| **[Seedance v1.5 Spicy](https://www.atlascloud.ai/models/bytedance/seedance-v1.5-pro/image-to-video-spicy?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | ~$0.22/動画 | I2V | Seedance品質、フィルターなし |
-| **Wan 2.6 T2V/I2V** | $0.04–0.15/秒 | T2V/I2V | 汎用モデル、緩和されたポリシー |
-| **Vidu Q3-Pro** | $0.06–0.16/秒 | T2V/I2V | BGM付きアニメNSFW |
-
-> 専用ガイドもご覧ください: [Awesome NSFW AI Video](https://github.com/54043RaymondPhilip/awesome-nsfw-ai-video) | [Wan 2.2 Spicy LoRA Guide](https://github.com/CornellJos963802hua/wan-2.2-spicy-lora-nsfw)
 
 ---
 
@@ -432,19 +408,10 @@ Atlas CloudのAPIは同様のRESTパターン（送信 → ポーリング → �
 Wan 2.6とKling O3 Proはどちらも最大15秒に対応しています。より長いコンテンツの場合は、複数の生成を連結してください。
 </details>
 
-<details>
-<summary><b>無検閲の動画生成が必要です。Soraではコンテンツがブロックされていました。</b></summary>
-
-Wan 2.2 Spicy（$0.03/秒）はLoRAファインチューニングによるNSFWコンテンツ専用モデルです。Seedance、Wan 2.6、ViduもAtlas Cloudでコンテンツフィルターなしで利用可能です。[NSFW AI動画ガイド](https://github.com/54043RaymondPhilip/awesome-nsfw-ai-video)をご覧ください。
-</details>
-
 ---
 
 ## 関連リソース
 
-- [NSFW AI API Comparison](https://github.com/MartinCha73421mberlain/nsfw-ai-api-comparison) — 無検閲生成が必要な場合
-- [Awesome NSFW AI Video](https://github.com/54043RaymondPhilip/awesome-nsfw-ai-video) — 厳選されたNSFW動画モデルリスト
-- [Wan 2.2 Spicy LoRA Guide](https://github.com/CornellJos963802hua/wan-2.2-spicy-lora-nsfw) — カスタムLoRAスタイル
 - [AI Video LoRA Guide](https://github.com/pangzipo981184/ai-video-lora-guide) — 一般的なLoRAチュートリアル
 
 ---
