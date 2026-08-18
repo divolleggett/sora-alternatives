@@ -55,7 +55,6 @@ Despite 1 million downloads within 5 days of its September 2025 launch, Sora cou
 | **Anime / stylized** | [Vidu Q3-Pro](https://www.atlascloud.ai/models/vidu/q3-pro/text-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) | Native anime mode, BGM generation |
 | **Video editing** | [Kling O3 Pro Video-Edit](https://www.atlascloud.ai/models/kwaivgi/kling-video-o3-pro/video-edit?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) | Natural language video editing |
 | **Character consistency** | [Vidu Q3-Pro](https://www.atlascloud.ai/models/vidu/q3-pro/text-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) / [Kling O3 Ref2V](https://www.atlascloud.ai/models/kwaivgi/kling-video-o3-pro/reference-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) | Reference-to-video with character locking |
-| **NSFW / uncensored** | [Wan 2.2 Spicy](https://www.atlascloud.ai/models/alibaba/wan-2.2-spicy/image-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) | LoRA-tuned for mature content, $0.03/s |
 | **Cheapest possible** | [Seedance v1.5 Fast](https://www.atlascloud.ai/models/bytedance/seedance-v1.5-pro/text-to-video-fast?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives) | $0.018/s with audio |
 
 ---
@@ -87,7 +86,6 @@ Despite 1 million downloads within 5 days of its September 2025 launch, Sora cou
 |-------|----------|------|:--------------:|:-----:|----------|
 | **[Seedance v1.5 Fast](https://www.atlascloud.ai/models/bytedance/seedance-v1.5-pro/text-to-video-fast?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | ByteDance | T2V | 720p | $0.018/s | Ultra-cheap drafts |
 | **[Wan 2.6 I2V Flash](https://www.atlascloud.ai/models/alibaba/wan-2.6/image-to-video-flash?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | Alibaba | I2V | 1080p | $0.018/s | Budget animation |
-| **[Wan 2.2 Spicy](https://www.atlascloud.ai/models/alibaba/wan-2.2-spicy/image-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | Alibaba | I2V | 720p | $0.03/s | NSFW / uncensored |
 | **[Vidu Q3-Turbo](https://www.atlascloud.ai/models/vidu/q3-turbo/text-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | Shengshu | T2V/I2V | 1080p | Budget | Fast generation |
 | **[Kling O3 Video-Edit](https://www.atlascloud.ai/models/kwaivgi/kling-video-o3-pro/video-edit?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | Kuaishou | Edit | 1080p | $0.306/s | NL video editing |
 
@@ -131,7 +129,6 @@ One API key, 100+ video models. Simple REST API: submit → poll → download. O
 | ~~Sora 2~~ (discontinued) | — | ~$0.50 | ~$1.00 |
 | **Seedance v1.5 Fast** | — | **$0.018** | — |
 | **Wan 2.6 T2V** | $0.20 | $0.40 | $0.60 |
-| **Wan 2.2 Spicy** | $0.15 | $0.15 | — |
 | **Vidu Q3-Pro** | — | $0.75 | $0.80 |
 | **Seedance v1.5 Pro** | — | $0.222 | — |
 | **Kling 3.0 Std** | — | $0.765 | $0.765 |
@@ -142,7 +139,6 @@ One API key, 100+ video models. Simple REST API: submit → poll → download. O
 | Model | Cost | vs Sora |
 |-------|:----:|:-------:|
 | Seedance v1.5 Fast | **$18** | 96% cheaper |
-| Wan 2.2 Spicy | **$150** | 70% cheaper |
 | Seedance v1.5 Pro | **$222** | 56% cheaper |
 | Wan 2.6 T2V | **$400** | 20% cheaper |
 | ~~Sora 2~~ | ~$500 | — |
@@ -337,30 +333,10 @@ While waiting for the API, you can experience Seedance 2.0 through ByteDance's o
 | **Veo 3 / 3.1** | ✅ | ❌ | ❌ |
 | **Seedance v1.5** | ✅ | ❌ | ❌ |
 | **Hailuo 2.3** | ✅ | ✅ | ❌ |
-| **NSFW support** | ✅ Full (Wan Spicy, Seedance, Vidu) | ⚠️ Limited | ❌ Blocked |
-| **Custom LoRA (video)** | ✅ Wan 2.2 Spicy LoRA | ❌ | ❌ |
 | **LLM models** | ✅ 50+ (DeepSeek, Qwen, etc.) | ❌ | ❌ |
 | **Image models** | ✅ 40+ (Flux, Seedream, Nano Banana) | ✅ 30+ | ✅ |
 | **One API key** | ✅ Video + Image + LLM | Video + Image only | Video + Image only |
 | **Wan 2.6 T2V pricing** | $0.08/s (720p) | $0.10/s | N/A |
-
-**Key advantage**: Atlas Cloud is the only platform where you can access Kling, Veo, Seedance, Wan, Vidu, Hailuo, AND NSFW models — all through one API key. fal.ai lacks Veo and Seedance; Replicate blocks NSFW and lacks most Chinese models.
-
----
-
-## NSFW Video Generation — Something Sora Never Offered
-
-Sora always had strict content moderation. If you need uncensored video generation, these models are available on Atlas Cloud with no content filters:
-
-| Model | Price | Type | Notes |
-|-------|:-----:|------|-------|
-| **[Wan 2.2 Spicy](https://www.atlascloud.ai/models/alibaba/wan-2.2-spicy/image-to-video?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | $0.03/s | I2V | LoRA-tuned for NSFW, best anatomy |
-| **[Wan 2.2 Spicy LoRA](https://www.atlascloud.ai/models/alibaba/wan-2.2-spicy/image-to-video-lora?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | $0.04/s | I2V | Custom LoRA styles for NSFW |
-| **[Seedance v1.5 Spicy](https://www.atlascloud.ai/models/bytedance/seedance-v1.5-pro/image-to-video-spicy?ref=JPM683&utm_source=github&utm_campaign=sora-alternatives)** | ~$0.22/s | I2V | Seedance quality, no filter |
-| **Wan 2.6 T2V/I2V** | $0.04–0.15/s | T2V/I2V | General model, relaxed policy |
-| **Vidu Q3-Pro** | $0.06–0.16/s | T2V/I2V | Anime NSFW with BGM |
-
-> See our dedicated guides: [Awesome NSFW AI Video](https://github.com/54043RaymondPhilip/awesome-nsfw-ai-video) | [Wan 2.2 Spicy LoRA Guide](https://github.com/CornellJos963802hua/wan-2.2-spicy-lora-nsfw)
 
 ---
 
@@ -431,19 +407,10 @@ Atlas Cloud's API uses a similar REST pattern (submit → poll → download). Mi
 Wan 2.6 and Kling O3 Pro both support up to 15 seconds. For longer content, chain multiple generations together.
 </details>
 
-<details>
-<summary><b>I need uncensored video generation. Sora blocked my content.</b></summary>
-
-Wan 2.2 Spicy ($0.03/s) is purpose-built for NSFW content with LoRA fine-tuning. Seedance, Wan 2.6, and Vidu are also available without content filters on Atlas Cloud. See our [NSFW AI Video Guide](https://github.com/54043RaymondPhilip/awesome-nsfw-ai-video).
-</details>
-
 ---
 
 ## Related Resources
 
-- [NSFW AI API Comparison](https://github.com/MartinCha73421mberlain/nsfw-ai-api-comparison) — If you need uncensored generation
-- [Awesome NSFW AI Video](https://github.com/54043RaymondPhilip/awesome-nsfw-ai-video) — Curated NSFW video model list
-- [Wan 2.2 Spicy LoRA Guide](https://github.com/CornellJos963802hua/wan-2.2-spicy-lora-nsfw) — Custom LoRA styles
 - [AI Video LoRA Guide](https://github.com/pangzipo981184/ai-video-lora-guide) — General LoRA tutorial
 
 ---
